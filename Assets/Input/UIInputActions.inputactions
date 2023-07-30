@@ -1,0 +1,74 @@
+{
+    "name": "UIInputActions",
+    "maps": [
+        {
+            "name": "ProgressBar",
+            "id": "dfa80c2e-d1a0-496d-8e2b-d0860e6fc729",
+            "actions": [
+                {
+                    "name": "Fill",
+                    "type": "Button",
+                    "id": "4fcdd40a-a4bc-4134-85bc-8c608964590a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Quit",
+                    "type": "Button",
+                    "id": "21afb497-1a31-465e-973e-28620960f9a8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Reset",
+                    "type": "Button",
+                    "id": "4e05c045-4624-4e4e-a52d-44a7c6b9370f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "81f05295-0de8-4325-8fa0-cee71ed2bae2",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fill",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "18de81fe-a5cf-4cb0-8b2d-eff8e9fdbce2",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Quit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a5a633cc-c6de-4a33-aaca-b0b75d88031d",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Reset",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
